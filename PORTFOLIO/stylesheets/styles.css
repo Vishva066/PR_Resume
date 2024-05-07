@@ -1,0 +1,105 @@
+.backgroundright  {
+    background: linear-gradient(to bottom right, black 60%, yellow 40%);
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+.backgroundleft {
+    background: linear-gradient(to bottom left, black 60%, yellow 40%);
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 70%;
+    padding-top: 5%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    /* border-style: solid;
+    border-radius: 20px;
+    border-color: aliceblue; */
+    /* position: sticky; */
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ebee31;
+    border-radius: 20px;
+    color: black;
+}
+
+.active {
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+}
+
+.name {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    font-size: 36px;
+    /* Adjust font size as needed */
+    color: whitesmoke;
+}
+
+
+.about {
+    position: absolute;
+    color: black;
+    padding-left: 10%;
+    padding-top: 20%;
+    font-size: larger;
+}
+
+.tagname:hover,
+.about h2:hover {
+
+    color: rgb(38, 154, 231);
+}
+
+/* .slope {
+    position: absolute;
+} */
+.projects {
+    position: absolute;
+    color: black;
+    padding-left: 10%;
+    padding-top: 20%;
+    font-size: larger;
+}
+table,th,tr{
+    /* border-style: solid;
+    border-color: rgb(0, 0, 0); */
+    color: black;
+}
+td{
+    
+    border-style: solid;
+    border-color: rgb(243, 244, 248);
+}
+@media only screen and (max-width: 1000px) {
+
+}
